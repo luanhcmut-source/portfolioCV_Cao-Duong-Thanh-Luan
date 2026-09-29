@@ -764,7 +764,7 @@ body, html {
     font-size: 1.3rem;
     font-weight: 800;
     letter-spacing: 0.1em;
-    color: var(--primary-color);
+    color: var(--text-primary);
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 0.8rem;
 }
@@ -776,8 +776,8 @@ body, html {
 }
 
 .s3-kw {
-    font-weight: 800;
-    color: var(--primary-color);
+    font-weight: 900;
+    color: #2d3bb4;
     transition: color 0.3s ease;
 }
 
