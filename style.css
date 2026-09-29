@@ -957,11 +957,12 @@ body, html {
     border: 1px solid var(--text-primary);
     display: flex; align-items: center; justify-content: center;
     z-index: 1;
+    flex-shrink: 0;
 }
 
 .step-num { font-size: 0.85rem; font-weight: 700; }
 .step-title { font-size: 1.15rem; font-weight: 700; margin: 0 0 0.3rem 0; letter-spacing: 0.05em; }
-.step-desc { font-size: 1.05rem; color: var(--text-primary); opacity: 0.9; line-height: 1.5; margin: 0; font-weight: 500; }
+.step-desc { font-size: 1.05rem; color: var(--text-primary); opacity: 0.9; line-height: 1.5; margin: 0; font-weight: 500; text-align: justify; }
 
 .s4-statement {
     margin-top: 2rem;
